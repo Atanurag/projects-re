@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="icon" href="https://atanurag.github.io/Portfolio/oraimg.png" />
+<style>
+
+
+ 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #232427;
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+/*
+body .container .card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+body .container .card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+
+body .container .card:nth-child(3) .box .content a {
+  background: #23c186;
+}
+
+body .container .card:nth-child(4) .box .content a {
+  background: #23c186;
+}
+
+a{
+   background: #e91e63;
+ }
+ */
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+body .container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+body .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+body .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+body .container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #23c186;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+body .container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+
+
+</style>
+
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/Logo(1).png" alt=""></div>
+        
+        <h3>Brand Me</h3>
+        <p>Brand Me digital marketing landing page created using ReactJs and NextJs.</p>
+        <a href="https://brandmedigitaltraining.com">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/oraimg.png" alt=""></div>
+        
+        <h3 style="margin-top: 12px;">Portfolio</h3>
+        <p> My portfolio created using ReactJs and some libraries.</p>
+        <a href="https://portfolio-daf82.web.app/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/inx.jpg" alt=""></div>
+        
+        <h3>Get Nutrition </h3>
+        <p>The Nutrition Source provides evidence-based diet & nutrition information for health professionals and  public.</p>
+        <a href="https:\\atanurag.github.io/get-nutrition-value/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/clipart-definition-manual.webp" alt=""></div>
+        
+        <h3>Dictionary</h3>
+        <p>A dictionary entry is a set of information that describes a word or phrase.</p>
+        <a href="https://atanurag.github.io/Dict/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/index.jpg" alt=""></div>
+        
+        <h3>Country Details</h3>
+        <p>Get to know about countries all over the world.</p>
+        <a href="https:\\atanurag.github.io/Country/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="card">
+    <div class="box">
+      <div class="content">
+       <div><img src="projectimg/Weather-icon.webp" alt=""></div>
+        <h3>Check Weather</h3>
+        <p>It is the state of the atmosphere, describing for example the degree to which it is hot or cold, wet or dryetc.</p>
+        <a href="https://atanurag.github.io/weather/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/TEXt convertor.webp" alt=""></div>
+        
+        <h3>TEXt convertor</h3>
+        <p>A translator to convert normal text to fancy text.</p>
+        <a href="https://atanurag.github.io/text/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/calender.png" alt=""></div>
+        
+        <h3>Calender</h3>
+        <p>A printed table showing the arrangement of the days, weeks, and months of the year.</p>
+        <a href="https://atanurag.github.io/caln/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/note.png" alt=""></div>
+        
+        <h3>Note App</h3>
+        <p>Write your sticky notes.</p>
+        <a href="https://atanurag.github.io/note/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/wwe.webp" alt=""></div>
+        
+        <h3>Wwe-superstars</h3>
+        <p>Check name,place,weight and championship-Reigns of wwe superstars.</p>
+        <a href="https://atanurag.github.io/-wwe/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/pokem-removebg-preview.png" alt=""></div>
+        
+        <h3>Pokemon</h3>
+        <p>Checkout your favorite pokemon details.</p>
+        <a href="https://atanurag.github.io/pokemon-1/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/calculator.jpg" alt=""></div>
+        
+        <h3>Age calculator</h3>
+        <p>Find your age.</p>
+        <a href="https://atanurag.github.io/ageC/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/Nameit.webp" alt=""></div>
+        
+        <h3>Name It</h3>
+        <p>What does your name say about your personality.</p>
+        <a href="https://atanurag.github.io/imgapi/">Explore</a>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--<div class="card">
+    <div class="box">
+      <div class="content">
+         <div><img src="projectimg/Nameit.webp" alt=""></div>
+        
+        <h3>Name It</h3>
+        <p>What does your name say about your personality.</p>
+        <a href="https://atanurag.github.io/imgapi/">Explore</a>
+      </div>
+    </div>
+  </div>-->
+
+
+
+
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
